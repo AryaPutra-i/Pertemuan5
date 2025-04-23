@@ -117,7 +117,7 @@ function kalkulator(angkaAwal = 0) {
 }
 
 // Contoh penggunaan Fungsi:
-// let kal = kalkulator(5);
+let kal = kalkulator()
 
 // Contoh penggunaan di console:
 /*kal.tambah(15);
