@@ -1,14 +1,14 @@
 // Variabel dan konstanta (Var, Let, Const)
-    // var nama = "Team2";
-    // nama = "Team 3"; // bisa diubah
-    // console.log(nama);
+    var nama = "Team2";
+    nama = "Team 3"; // bisa diubah
+    console.log(nama);
 
-    // let umur = 20;
-    // umur = 21; // bisa diubah
-    // console.log(umur);
+    let umur = 20;
+    umur = 21; // bisa diubah
+    console.log(umur);
   
-    // const negara = "Indonesia";
-    // console.log(negara); // Indonesia
+    const negara = "Indonesia";
+    console.log(negara); // Indonesia
     // // negara = "Malaysia"; // ❌ Error! Tidak bisa diubah setelah dibuat.
   
 
