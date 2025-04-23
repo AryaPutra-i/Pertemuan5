@@ -97,24 +97,24 @@ Kekurangan:
 Method (fungsi tambah/kurang) akan terkopi di setiap objek (boros memori)*/
 
 
-// const methodkalkulator = {
-//   tambah(nilai) {
-//     this.angka += nilai;
-//     console.log(`Angka sekarang (setelah tambah ${nilai}): ${this.angka}`);
-//   },
-//   kurang(nilai) {
-//     this.angka -= nilai;
-//     console.log(`Angka sekarang (setelah kurang ${nilai}): ${this.angka}`);
-//   }
-// };
+const methodkalkulator = {
+  tambah(nilai) {
+    this.angka += nilai;
+    console.log(`Angka sekarang (setelah tambah ${nilai}): ${this.angka}`);
+  },
+  kurang(nilai) {
+    this.angka -= nilai;
+    console.log(`Angka sekarang (setelah kurang ${nilai}): ${this.angka}`);
+  }
+};
 
-// function kalkulator(angkaAwal = 0) {
-//   let kalkulator = {};
-//   kalkulator.angka = angkaAwal;
-//   kalkulator.tambah = methodkalkulator.tambah;
-//   kalkulator.kurang = methodkalkulator.kurang;
-//   return kalkulator;
-// }
+function kalkulator(angkaAwal = 0) {
+  let kalkulator = {};
+  kalkulator.angka = angkaAwal;
+  kalkulator.tambah = methodkalkulator.tambah;
+  kalkulator.kurang = methodkalkulator.kurang;
+  return kalkulator;
+}
 
 // Contoh penggunaan Fungsi:
 // let kal = kalkulator(5);
