@@ -23,17 +23,17 @@ function tesVar() {
   }
   
 //   // Menggunakan let
-//   function tesLet() {
-//     if (true) {
-//       let umur = 20;
-//       console.log("Di dalam if (let):", umur); // 20
-//     }
-//     // console.log("Di luar if (let):", umur); // ❌ Error! umur tidak dikenali di sini
-//   }
+  function tesLet() {
+    if (true) {
+      let umur = 20;
+      console.log("Di dalam if (let):", umur); // 20
+    }
+    console.log("Di luar if (let):", umur); // ❌ Error! umur tidak dikenali di sini
+  }
   
 //   // Jalankan
-//   tesVar();
-//   tesLet();
+  tesVar();
+  tesLet();
   
 
 
