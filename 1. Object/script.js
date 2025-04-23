@@ -14,13 +14,13 @@
 
 // ====================================================================================
 // Perbedaan let dan var
-// function tesVar() {
-//     if (true) {
-//       var nama = "Team2";
-//       console.log("Di dalam if (var):", nama); // Team2
-//     }
-//     console.log("Di luar if (var):", nama); // Masih bisa akses! Team2
-//   }
+function tesVar() {
+    if (true) {
+      var nama = "Team2";
+      console.log("Di dalam if (var):", nama); // Team2
+    }
+    console.log("Di luar if (var):", nama); // Masih bisa akses! Team2
+  }
   
 //   // Menggunakan let
 //   function tesLet() {
